@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="200dp"
+        android:background="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="106dp"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_two"
+        android:text="Description"
+        tools:layout_editor_absoluteX="278dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_one"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_two"
+        tools:layout_editor_absoluteY="450dp"
+        tools:layout_editor_absoluteX="75dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_one"
+        android:text="Description"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="224dp"
+        tools:layout_editor_absoluteX="170dp"/>
+
+
+</android.support.constraint.ConstraintLayout>
